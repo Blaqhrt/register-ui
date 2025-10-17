@@ -1,0 +1,35 @@
+ body {
+    background-color: rgb(29, 18, 2);
+    color: rgb(31, 30, 28);
+    font-family: 'poppins', sans-serif;
+    text-align: center;
+    inline-size: auto;
+    font-size: medium;
+   margin: auto;
+   min-height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   #intro-section {
+    padding: 2rem 1rem;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    margin-bottom: 2rem;
+    width: 80;
+    max-width: 500px;
+    box-shadow: 0 4px 10px rgb(233, 145, 13);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+   }
+
+   #form-section {
+
+    background-color: aliceblue;
+    color: rgb(233, 145, 13);
+    padding: 2rem;
+    border-radius: 12px;
+    margin-top: 15px;
+   }
+ }
+  
